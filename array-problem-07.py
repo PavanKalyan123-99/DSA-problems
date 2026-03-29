@@ -19,5 +19,5 @@ class Solution(object):
                 rows[i].add(num)
                 cols[j].add(num)
                 boxes[box_index].add(num)
-        return True        
-                 
+        return True
+    
