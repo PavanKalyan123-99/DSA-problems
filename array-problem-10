@@ -1,0 +1,8 @@
+nums = [1,1,2,2,3]
+pos=0
+for i in range(len(nums)):
+  if nums[i]!=nums[pos]:
+    pos+=1
+    nums[pos]=nums[i]
+print(pos+1)
+print(nums[:pos+1])  
