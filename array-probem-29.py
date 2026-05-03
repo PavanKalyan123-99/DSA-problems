@@ -11,4 +11,4 @@ class Solution(object):
             buy2 = min(buy2, price-sell1)
             sell2 = max(sell2, price - buy2)
 
-        return sell2       
+        return sell2 
